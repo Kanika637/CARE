@@ -1,0 +1,33 @@
+.header {
+  height: 90px;
+  display: flex;
+  background: linear-gradient(to right, #ffa233, #91ff33);
+}
+
+.logo {
+  float: left;
+  margin-left: 29px;
+  font-size: 75px;
+  margin-top: 2px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 10px;
+}
+.nav_elements {
+  display: flex;
+  margin-top: 17px;
+  color: white;
+  margin-left: -30px;
+}
+
+.about {
+  font-size: 20px;
+  float: right;
+  margin-left: 1100px;
+  /* margin-right: 90px; */
+}
+.help {
+  font-size: 20px;
+  float: right;
+  margin-left: 50px;
+}
