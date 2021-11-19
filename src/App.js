@@ -1,10 +1,9 @@
 import './App.css';
 import "./header"
+import Image from "./Image"
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
-    </div>
+    <Image />
   );
 }
 
