@@ -7,12 +7,14 @@ function App() {
 
 function App() {
   return (
+    <div>
     
-     <Header/>
-    <Image />
+     <Header/>,
+    <Image />,
     </div>
 
   );
+}
 }
 
 export default App;
