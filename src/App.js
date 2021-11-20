@@ -11,10 +11,10 @@ function App() {
     
      <Header/>,
     <Image />,
+    
     </div>
 
   );
 }
 }
-
 export default App;
