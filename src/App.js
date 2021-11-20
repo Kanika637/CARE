@@ -1,11 +1,10 @@
-import './App.css';
-import "./header"
+
 import Header from "./Header"
 import Image from "./Image"
 function App() {
   
 
-function App() {
+
   return (
     <div>
     
@@ -16,5 +15,5 @@ function App() {
 
   );
 }
-}
+
 export default App;
