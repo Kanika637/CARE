@@ -1,19 +1,12 @@
-<<<<<<< HEAD
 import React from "react";
 import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
-||||||| 8187b40
-import './App.css';
-import "./header"
-=======
 
->>>>>>> upstream/main
 import Header from "./Header"
-// import Image from "./Image"
+import Image from "./Image"
 import Login from "./Login"
-
+function App(){
 
   return (
-<<<<<<< HEAD
     <Router>
       <div className="app">
         <Routes>
@@ -21,21 +14,15 @@ import Login from "./Login"
           <Route exact path="/login" element={<Login/>}></Route>
     {/* <Image /> */}
     </Routes>
-||||||| 8187b40
-    <div>
-     <Header/>
-    <Image />
-=======
-    <div>
     
-     <Header/>,
+    
+     
     <Image />,
     
->>>>>>> upstream/main
     </div>
     </Router>
     
-  );
-}
+  )};
+
 
 export default App;
