@@ -10,22 +10,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-<<<<<<< HEAD
     "react-router-dom": "^6.0.2",
-||||||| 8187b40
-    "react-scripts": "4.0.3",
-||||||| adf2151
-    "react-scripts": "4.0.3",
-=======
-=======
->>>>>>> upstream/main
     "react-scripts": "^4.0.3",
-<<<<<<< HEAD
-||||||| 8187b40
->>>>>>> upstream/main
-=======
     "react-simple-image-slider": "^2.3.0",
->>>>>>> upstream/main
     "web-vitals": "^1.1.2"
   },
   "scripts": {
