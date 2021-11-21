@@ -9,20 +9,20 @@ const images = [
   
 ];
 const divStyle = {
-margin: -21
+margin: -21,
+
 };
 
 const Image = () => {
   return (
     <div className="pic">
       <SimpleImageSlider
-        width={1540}
-        height={1200}
+        width={1400}
+        height={900}
         images={images}
         showBullets={true}
         showNavs={true}
         autoPlay={true}
-        
         style={divStyle}
         
       />
