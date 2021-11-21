@@ -1,18 +1,22 @@
-import './App.css';
-import "./header"
+import React from "react";
+import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
 import Header from "./Header"
-import Image from "./Image"
-function App() {
-  
+// import Image from "./Image"
+import Login from "./Login"
 
 function App() {
   return (
-    <div>
-     <Header/>
-    <Image />
+    <Router>
+      <div className="app">
+        <Routes>
+          <Route exact path="/" element={<Header/>}></Route>
+          <Route exact path="/login" element={<Login/>}></Route>
+    {/* <Image /> */}
+    </Routes>
     </div>
-
+    </Router>
+    
   );
 }
-}
+
 export default App;
