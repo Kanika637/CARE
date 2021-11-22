@@ -17,24 +17,25 @@
   display: flex;
   margin-top: 34px;
   color: white;
-  margin-left: -31px;
+  margin-left: 970px;
   display: flex;
+  font-size: 21px;
 }
 
 .about {
-  font-size: 20px;
+  
   float: right;
-  margin-left: 1100px;
-  /* margin-right: 90px; */
+  
+  margin-right: 30px;
 }
 .help {
-  font-size: 20px;
+  
   float: right;
-  margin-left: 50px;
 }
 .sign {
-  font-size: 20px;
+  
   float: right;
-  /* margin-left: 200px; */
-  /* margin-right: -10px; */
+  
+  
+  margin-right: 30px;
 }

@@ -1,17 +1,5 @@
-<<<<<<< HEAD
 .pic {
+  margin-bottom: 5%;
   object-fit: cover;
-  
+  overflow: hidden;
 }
-||||||| 4d4421d
-.pic{
-    object-fit: cover;
-}
-=======
-.pic{
-    margin-bottom: 5%;
-    /* width: 100%; */
-    object-fit: cover;
-    overflow: hidden;
-}
->>>>>>> upstream/main
